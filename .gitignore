@@ -1,0 +1,36 @@
+# --- Course materials (not ours to redistribute) ---
+/docs/
+
+# --- Secrets & machine-specific config (provided by the instructor) ---
+credentials.py
+initiator.cfg
+.env
+
+# --- SHIFT / QuickFIX runtime artifacts ---
+# FIX session logs & message stores are regenerated each run and contain
+# your username — never commit them.
+store/
+log/
+**/FIXT.*-*
+**/FIX5.*-*
+**/GLOBAL.event.*.log
+**/GLOBAL.messages.*.log
+*.seqnums
+*.session
+*.body
+*.header
+*.event.current.log
+*.messages.current.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
