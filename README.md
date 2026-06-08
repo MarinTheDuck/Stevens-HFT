@@ -16,7 +16,9 @@ connection is opened up front and shared across every lab.
 | 1 | **Market Monitor** — live bid/ask/spread/last + 5-period SMA signal, portfolio summary, price chart | Lecture 2 | ✅ ready |
 | 2 | **First Algorithm** — switchable momentum / mean-reversion / order-imbalance strategy with risk guards | Lecture 3 | ✅ ready |
 | 3 | **Triple Barrier** — label real price series, compare the distribution across `c = 0.5/1.5/3.0`, feature correlations | Lecture 4 | ✅ ready |
-| 4–8 | — | — | ⬜ stubs |
+| 4 | **Strategy Lab** — pick one of MA Crossover / MACD / Bollinger / Z-Score / VWAP at launch, then trade it live | Lecture 5 | ✅ ready |
+| 5 | **Market Maker** — two-sided quoting with inventory skew, adaptive spread, one-sided pausing, and a risk readout | Lecture 6 | ✅ ready |
+| 6–8 | — | — | ⬜ stubs |
 
 ## Project layout
 
@@ -88,6 +90,15 @@ strategy · `f` flatten position · `q` back.
 
 **Lab 3 — Triple Barrier** — highlight a table row to switch the analysed
 symbol · `q` back.
+
+**Lab 4 — Strategy Lab** — pick a strategy on the launch screen, then `Space`
+start/stop · `f` flatten · `q` back to the picker / menu. Momentum strategies
+hold until an opposite signal; mean-reversion strategies close on return to the
+mean. ⚠️ Submits **real orders**; starts *armed but paused*.
+
+**Lab 5 — Market Maker** — `Space` start/stop · `m` switch basic ⇄ inventory-aware
+quoting · `e` toggle flat-position exit · `f` flatten · `q` back. ⚠️ Submits
+**real orders**; starts *armed but paused*.
 
 ## Notes
 
