@@ -30,9 +30,6 @@ import Lab2
 import Lab3
 import Lab4
 import Lab5
-import Lab6
-import Lab7
-import Lab8
 from connection import Connection
 
 # Placeholder logins shipped in the repo. If these are still in place at
@@ -46,9 +43,6 @@ LABS = {
     3: Lab3,
     4: Lab4,
     5: Lab5,
-    6: Lab6,
-    7: Lab7,
-    8: Lab8,
 }
 
 
